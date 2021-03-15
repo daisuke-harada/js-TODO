@@ -23,7 +23,7 @@ const createIncompleteList = (text) => {
   const li = document.createElement("li");
   li.innerText = text;
 
-  // button（完了）タグ作成
+  // button（完了）
   // 完了機能作成
   const completeButton = document.createElement("button");
   completeButton.innerText = "完了";
